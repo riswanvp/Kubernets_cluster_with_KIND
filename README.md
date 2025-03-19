@@ -28,6 +28,7 @@ kubectl version --client
 
 **Step2: KIND installation**
 ----------
+refer KB: https://kind.sigs.k8s.io/docs/user/quick-start/#installation
 # For AMD64 / x86_64
 [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.27.0/kind-linux-amd64
 
