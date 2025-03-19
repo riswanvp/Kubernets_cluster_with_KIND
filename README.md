@@ -43,3 +43,11 @@ kind version
 
 sudo apt-get update
 sudo install docker.io
+
+
+**To create kind cluster**
+
+kind create cluster --name=kind-cluster --config=config.yaml
+
+
+
