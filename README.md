@@ -47,7 +47,11 @@ sudo install docker.io
 
 **To create kind cluster**
 
-kind create cluster --name=kind-cluster --config=config.yaml
+kind create cluster --name=my-cluster --config=config.yaml
+
+kubectl cluster-info --context kind-my-cluster        // view the cluster information
+
+kubectl get nodes          //  List the nodes under the cluster
 
 
-
+kind delete cluster        // delete kind cluster
